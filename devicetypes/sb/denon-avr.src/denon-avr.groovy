@@ -4,7 +4,7 @@
  *    	SmartThings driver to connect your Denon Network Receiver to SmartThings
  *		Tested with AVR-S710W (game1 & game2 inputs are not available), AVR 1912
 
-TESED DENON MODELS
+TESTED DENON MODELS
     ModelId
 	EnModelUnknown,		//(0)
 	EnModelAVRX10,		//(1)
@@ -119,8 +119,8 @@ preferences {
             state "ON", label: 'Blu-ray', action: "bd", icon:"st.Electronics.electronics8", backgroundColor: "#53a7c0", nextState:"OFF"              
         	}
         standardTile("input4", "device.dvd", width: 2, height: 2, decoration: "flat"){
-        	state "OFF", label: 'Chromcast', action: "dvd", icon:"st.Electronics.electronics14", backgroundColor: "#FFFFFF",nextState:"ON"   
-            state "ON", label: 'Chromcast', action: "dvd", icon:"st.Electronics.electronics14", backgroundColor: "#53a7c0", nextState:"OFF"               
+        	state "OFF", label: 'Chromecast', action: "dvd", icon:"st.Electronics.electronics14", backgroundColor: "#FFFFFF",nextState:"ON"   
+            state "ON", label: 'Chromecast', action: "dvd", icon:"st.Electronics.electronics14", backgroundColor: "#53a7c0", nextState:"OFF"               
         	}
 		standardTile("input5", "device.mp", width: 2, height: 2, decoration: "flat"){
         	state "OFF", label: 'Amazon TV', action: "mp", icon:"st.Electronics.electronics9", backgroundColor: "#FFFFFF",nextState:"ON"   
